@@ -1,0 +1,48 @@
+name: layout_in_flutter
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  file_picker: ^8.0.0+1
+  image_picker_for_web: ^3.0.5
+  http: ^1.2.2
+  provider: ^6.0.3
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.6
+  get_it: ^7.2.0
+  dartz: ^0.10.0
+  shared_preferences: ^2.0.11
+  connectivity_plus: ^6.0.5
+  internet_connection_checker: ^1.0.0
+  
+
+  cupertino_icons: ^1.0.6
+  http_parser: ^4.0.2
+  uuid: ^4.4.2
+  animated_splash_screen: ^1.0.0
+  page_transition: ^2.0.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^9.0.0
+  mockito: ^5.0.17
+  flutter_lints: ^4.0.0
+  build_runner: ^2.3.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    # - Image/image.png
+    # - Image/imagecopy.png
+    - Image/splash.png
+    - Image/ecom.png
+    - test/feature/product/domain/usecase/dummy_data/dummy_product_response.json
