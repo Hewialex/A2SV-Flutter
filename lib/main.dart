@@ -27,6 +27,7 @@ Future<void> main() async {
         ),
       ],
       child: const MyApp(),
+
     ),
   );
 }
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'My App',
+      title: 'My Appsadd',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
